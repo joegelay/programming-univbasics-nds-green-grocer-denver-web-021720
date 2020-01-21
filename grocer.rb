@@ -102,6 +102,7 @@ def checkout(cart, coupons)
   # some irritated customers
   
   consolidate_cart(cart)
+  total = 0
   
   i = 0 
   while i < cart.length do 
