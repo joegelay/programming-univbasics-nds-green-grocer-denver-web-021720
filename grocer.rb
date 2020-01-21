@@ -111,6 +111,6 @@ def checkout(cart, coupons)
   total += (final_cart[i][:price] * final_cart[i][:count]).round(2)
   i += 1 
   end
-  total.round(2)
+ 
   return total
 end
