@@ -112,5 +112,5 @@ def checkout(cart, coupons)
   total += cart[i][:price]
   i += 1 
   end
-  
+  return total
 end
